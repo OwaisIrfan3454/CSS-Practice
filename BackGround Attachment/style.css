@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;/
+}
+.section{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position-x:center ;
+    background-image: url("https://blog.cdn.level.game/2024/04/Ganpati-photo-with-quotes.webp");
+    background-attachment: fixed;
+}
+.section1{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position-x:center ;
+    background-image: url("https://i.pinimg.com/originals/71/53/c3/7153c342749cfc9c48526a6af67b3792.jpg");
+    background-attachment: fixed;
+}
+.section2{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position-x:center ;
+    background-image: url("https://rukminim2.flixcart.com/image/850/1000/l5e81ow0/painting/e/o/8/9-1-35-hanuman-ji-mmory-original-imagg2zghvfukymg.jpeg?q=90&crop=false");
+    background-attachment: fixed;
+}
+.section3{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position-x:center ;
+    background-image: url("https://i0.wp.com/m.media-amazon.com/images/I/61uZWdaGnbL._AC_UF1000,1000_QL80_.jpg?ssl=1");
+    background-attachment: fixed;
+}
+h1{
+    font-size: 60px;
+    font-weight: 20px;
+    color: aliceblue;
+}
+p{
+    font-size: 20px;
+    color: aliceblue;
+}
