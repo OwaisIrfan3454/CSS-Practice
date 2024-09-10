@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: chocolate;
+    color: aliceblue;
+}
+.brand-logo{
+    width: 30%;
+    line-height: 10vh;
+    /* height: inherit; */
+    /* background-color: brown; */
+    float: left;
+    text-align: center;
+}
+.navbar{
+    width: 70%;
+    line-height: 10vh;
+    /* height: inherit; */
+    /* background-color: coral; */
+    float: right;
+    text-align: right;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 25px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+.cradle{
+    margin: 50px auto;
+    height: 50rem;
+    width: 40rem;
+    border-top: 0.5rem solid purple;
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+}
+.balls{
+    width: 0.5rem;
+    height: 20rem;
+    background-color: purple;
+    position: relative;
+}
+.cradle .balls::after{
+    content: "";
+    position: absolute;
+    width: 4rem;
+    left: -1.7rem;
+    top: 90%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: purple;
+}
+.cradle .balls:first-child{
+    animation: left-swing 2s linear infinite;
+    transform-origin: top left;
+}
+@keyframes left-swing{
+    0% {
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 30deg;
+    }
+    50%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
+
+.cradle .balls:last-child{
+    animation: right-swing 2s linear 1s infinite;
+    transform-origin: top right;
+}
+@keyframes right-swing{
+    0% {
+        rotate: 0deg;
+    }
+    25%{
+        rotate: -30deg;
+    }
+    50%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
