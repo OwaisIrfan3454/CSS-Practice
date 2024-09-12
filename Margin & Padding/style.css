@@ -1,0 +1,14 @@
+.marginwork{
+    border: 20px solid green;
+    height: 70vh;
+    /* width: 100%; */
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+.paddingwork{
+    border: 20px solid green;
+    height: 70vh;
+    /* width: 100%; */
+    padding: 50px;
+}
