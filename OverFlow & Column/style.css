@@ -1,0 +1,25 @@
+.overflow{
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+    padding: 10px;
+    /* display: grid; */
+    /* place-items: center; */
+    /* text-align: center; */
+    margin: auto;
+    overflow-x: scroll;
+    /* white-space:nowrap; */
+}
+
+div{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+.column{
+    column-count: 3;
+    column-rule: 4px dotted red ;
+    column-gap: 50px;
+    column-rule-width: 10px;
+    text-align: justify;
+}
