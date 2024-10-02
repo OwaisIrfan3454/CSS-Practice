@@ -1,0 +1,62 @@
+* p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem !important;
+}
+.title{
+    font-size: 4.5rem !important;
+}
+/* Navbar Section Start */
+.navbar-section{
+    padding-left: 10rem !important;
+    gap: 1.5rem;
+}
+.abtribute{
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.2rem !important;
+}
+/* Navbar Section Start */
+
+/* Hero Section Start */
+.video{
+    border-radius: 2rem !important;
+}
+.grid-cols--two{
+    gap: 4rem;
+    /* margin: 4rem 2rem 0 8rem; */
+    border: 1px solid red;
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+.para{
+    color:lightslategray;
+}
+.number{
+    font-size: 2.5rem;
+    font-weight: 900;
+    /* line-height: 0.5rem; */
+}
+.green-button{
+    background-color: rgb(12, 162, 12);
+    color: white;
+    padding: 0rem 4rem 0rem 4rem;
+    border: 0 solid rgb(12, 162, 12);
+    border-radius: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+    /* outline: none !important; */
+}
+.dollar{
+    color: rgb(12, 162, 12);
+    font-size: 2rem;
+    font-weight: 900;
+}
+/* Hero Section End */
+.grid-cols{
+    gap: 4rem;
+    margin: 4rem 2rem 0 8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
